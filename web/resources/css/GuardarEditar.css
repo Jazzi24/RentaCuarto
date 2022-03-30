@@ -18,8 +18,7 @@ background: #fff url('https://picsum.photos/200/300/?blur') fixed;
   border-bottom: 5px solid #205ab4;
   margin-bottom:5px; 
 }
-/* --------------------------------------------------------------- */
-/* --------------------------------------------------------------- */
+
 /* FORMULARIO: fondo blanco y casillas --------------------------- */
 form{
   background-color: white;
@@ -59,14 +58,13 @@ form{
       input:focus{
         background-color: #F2F2F2;
       }
-    /* -------------------------------------------------- */
-/* --------------------------------------------------------------- */
+
 /* C U E R P O  -------------------------------------------------- */ 
 body{
 
 background-image: linear-gradient(-90deg,#6ABBF7, #BD7CFA);
 }
-/* --------------------------------------------------------------- */
+
 /* FUNCION DEL BOTON REGISTRARSE --------- */
 #button {
         width: 94%;

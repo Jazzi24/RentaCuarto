@@ -1,9 +1,9 @@
-/************************************************
+/** **********************************************
  *    Autor:Pérez Hernández Jazziel.            *
  *    Fecha creación: 07 de marzo del 2022.     *
  *    Fecha actualización: 07 de marzo del 2022.*
  *    Descripción: Creacion de la clase persona.*
- ************************************************/
+ *********************************************** */
 package entity;
 
 public abstract class Persona {
@@ -19,6 +19,7 @@ public abstract class Persona {
         this.nombre = nombre;
         this.sexo = sexo;
         this.edad = edad;
+
     }
 
     public void setNombre(String nombre) {

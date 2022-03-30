@@ -1,9 +1,9 @@
-/** ******************************************************************************
+/********************************************************************************
  *    Autor:Pérez Hernández Jazziel.                                            *
  *    Fecha creación: 17 de marzo del 2022.                                     *
  *    Fecha actualización: 20 de marzo del 2022.                                *
- *    Descripción: Implementacion del metodo doGet.                    *
- ******************************************************************************* */
+ *    Descripción: Implementacion del metodo doGet.                             *
+ ********************************************************************************/
 package controller;
 
 import entity.Usuario;
@@ -12,7 +12,6 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import service.IUsuarioService;
 import service.UsuaServiceImpl;
 

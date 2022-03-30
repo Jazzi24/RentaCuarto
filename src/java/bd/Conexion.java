@@ -1,10 +1,9 @@
-/************************************************
-*    Autor:Pérez Hernández Jazziel.             *
-*    Fecha creación: 08 de marzo del 2022.      *
-*    Fecha actualización: 08 de marzo del 2022. *
-*    Descripción: Creacion de la clase conexion.*
-*************************************************/
-
+/** **********************************************
+ *    Autor:Pérez Hernández Jazziel.             *
+ *    Fecha creación: 08 de marzo del 2022.      *
+ *    Fecha actualización: 08 de marzo del 2022. *
+ *    Descripción: Creacion de la clase conexion.*
+ ************************************************ */
 package bd;
 
 import java.sql.*;

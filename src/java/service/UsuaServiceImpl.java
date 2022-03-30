@@ -2,8 +2,8 @@
  *    Autor:Pérez Hernández Jazziel.                                                 *
  *    Fecha creación: 16 de marzo del 2022.                                          *
  *    Fecha actualización: 16 de marzo del 2022.                                     *
- *    Descripción: Creacion de la UsuaServiceImpl que implements de IUsuarioService. *                 *
- *********************************************************************************** */
+ *    Descripción: Creacion de la UsuaServiceImpl que implements de IUsuarioService. *
+ *************************************************************************************/
 package service;
 
 import entity.Usuario;

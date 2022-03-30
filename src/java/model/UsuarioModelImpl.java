@@ -1,9 +1,9 @@
-/********************************************************************************************************************* 
-*    Autor:Pérez Hernández Jazziel.                                                                                  *                
-*    Fecha creación: 11 de marzo del 2022.                                                                           *
-*    Fecha actualización: 14 de marzo del 2022.                                                                      *
-*    Descripción: Implementacion de los metodos obtenerRegistro,obtenerRegistros,actualizarRegistro,eliminarUsuario. *                 *
-**********************************************************************************************************************/
+/*********************************************************************************************************************
+ *  Autor:Pérez Hernández Jazziel.                                                                                   *
+ *  Fecha creación: 11 de marzo del 2022.                                                                            *
+ *  Fecha actualización: 14 de marzo del 2022.                                                                       *
+ *  Descripción: Implementacion de los metodos obtenerRegistro,obtenerRegistros,actualizarRegistro,eliminarUsuario.  *              
+ *********************************************************************************************************************/
 package model;
 
 import bd.*;

@@ -92,34 +92,33 @@ public class Producto {
             System.out.println();
         }
 
-        Usuario u1 = new Usuario("Juan","Hombre",26);
+        Usuario u1 = new Usuario("Juan", "Hombre", 26);
         u1.setCodigo("789");
         u1.setNombreUsuario("Administrador");
         u1.setContraseña("789");
-        Usuario u2 = new Usuario("Maria","Mujer",23);
+        Usuario u2 = new Usuario("Maria", "Mujer", 23);
         u2.setCodigo("456");
         u2.setNombreUsuario("Vendedor");
-        u2.setContraseña("456"); 
-        Usuario u3 = new Usuario("Panfilo","Hombre",22);
+        u2.setContraseña("456");
+        Usuario u3 = new Usuario("Panfilo", "Hombre", 22);
         u3.setCodigo("123");
         u3.setNombreUsuario("Vendedor");
-        u3.setContraseña("123"); 
-        
-        List <Usuario> lista1 = new ArrayList<>();
+        u3.setContraseña("123");
+
+        List<Usuario> lista1 = new ArrayList<>();
         lista1.add(u1);
         lista1.add(u2);
         lista1.add(u3);
-        
-        
+
         for (Usuario e : lista1) {
-            System.out.println("Codigo: "+e.getCodigo());
-            System.out.println("Nombre: "+e.getNombre());
-            System.out.println("sexo: "+e.getSexo());
-            System.out.println("edad: "+e.getEdad());
-            System.out.println("Nombre del usuario: "+e.getNombreUsuario());
-            System.out.println("contraseña: "+e.getContraseña());
+            System.out.println("Codigo: " + e.getCodigo());
+            System.out.println("Nombre: " + e.getNombre());
+            System.out.println("sexo: " + e.getSexo());
+            System.out.println("edad: " + e.getEdad());
+            System.out.println("Nombre del usuario: " + e.getNombreUsuario());
+            System.out.println("contraseña: " + e.getContraseña());
             System.out.println();
-            
+
         }
     }
 }

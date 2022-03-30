@@ -1,9 +1,9 @@
-/********************************************************************************
+/** ******************************************************************************
  *    Autor:Pérez Hernández Jazziel.                                            *
  *    Fecha creación: 17 de marzo del 2022.                                     *
  *    Fecha actualización: 26 de marzo del 2022.                                *
  *    Descripción: Implementacion en el metodo doPost.                          *
- ********************************************************************************/
+ ******************************************************************************* */
 package controller;
 
 import entity.Usuario;
@@ -18,8 +18,6 @@ import service.UsuaServiceImpl;
 
 public class GuardarCrearUsuarioServlet extends HttpServlet {
 
-
-    
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         IUsuarioService service = new UsuaServiceImpl();
@@ -34,5 +32,5 @@ public class GuardarCrearUsuarioServlet extends HttpServlet {
         service.crearRegistro(usuario);
         response.sendRedirect("ListarUsuarioServlet");
     }
-    
+
 }

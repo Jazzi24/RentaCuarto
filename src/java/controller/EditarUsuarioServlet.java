@@ -35,19 +35,16 @@ public class EditarUsuarioServlet extends HttpServlet {
         out.println("<script src='" + request.getContextPath() + "/resources/JavaScrip/scrip.js'></script>");
         out.println("</head>");
         out.println("<body>");
-        
-        
+
         //out.println("<div class=\"heard\">");
-            out.println(" <link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'/>");
-                 out.println(" <div class=\"menuicon\">");
-                    out.println("<a href=\"/Renta_Cuartos1/pages\">");
-                 out.println("<div class=\"fa fa-home\"></div>");
-            out.println("<div class=\"title\">Home</div>");
+        out.println(" <link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'/>");
+        out.println(" <div class=\"menuicon\">");
+        out.println("<a href=\"/Renta_Cuartos1/pages\">");
+        out.println("<div class=\"fa fa-home\"></div>");
+        out.println("<div class=\"title\">Home</div>");
         out.println("</a>");
         out.println("</div>");
-        
-        
-        
+
         out.println("<section class=\"container\">");
         out.println("<form action='GuardarEditorUsuarioServlet' method=\"GET\">");
         out.println("<fieldset class=\"p\">");
@@ -74,6 +71,4 @@ public class EditarUsuarioServlet extends HttpServlet {
         out.println("</html>");
     }
 
-    
-    
 }

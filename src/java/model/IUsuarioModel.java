@@ -1,9 +1,9 @@
-/** ***************************************************
- *    Autor:Pérez Hernández Jazziel.                  *
- *    Fecha creación: 11 de marzo del 2022.           *
- *    Fecha actualización: 11 de marzo del 2022.      *
- *    Descripción: Creacion de la interface IUsuario. *
- ***************************************************** */
+/*********************************************************
+ *    Autor:Pérez Hernández Jazziel.                     *
+ *    Fecha creación: 11 de marzo del 2022.              *
+ *    Fecha actualización: 11 de marzo del 2022.         *
+ *    Descripción: Creacion de la interface IUsuario.    *
+ ******************************************************/
 package model;
 
 import entity.Usuario;

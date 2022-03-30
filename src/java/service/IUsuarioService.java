@@ -1,9 +1,9 @@
-/********************************************************************************
+/** ******************************************************************************
  *    Autor:Pérez Hernández Jazziel.                                            *
  *    Fecha creación: 16 de marzo del 2022.                                     *
  *    Fecha actualización: 16 de marzo del 2022.                                *
  *    Descripción: Creacion de la interface IUsuarioService.                    *
- ********************************************************************************/
+ ******************************************************************************* */
 package service;
 
 import entity.*;
@@ -20,4 +20,5 @@ public interface IUsuarioService {
     public Usuario obtenerRegistro(int idUsuario);
 
     public void eliminarUsuario(int idUsuario);
+
 }

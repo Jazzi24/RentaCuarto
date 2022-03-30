@@ -1,12 +1,9 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 30 mar 2022, 10:07:02
-    Author     : labtw07
-*/
+/********************************************************************************
+ *    Autor:Pérez Hernández Jazziel.                                            *
+ *    Fecha creación: 07 de marzo del 2022.                                     *
+ *    Fecha actualización: 28 de marzo del 2022.                                *
+ *    Descripción: clases del archivo css.                                      *
+ ********************************************************************************/
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -14,6 +11,7 @@ body {
   background-image: linear-gradient(-90deg,#6ABBF7, #BD7CFA);
   
 }
+
 a {
     color: #f0f3f5;
 }

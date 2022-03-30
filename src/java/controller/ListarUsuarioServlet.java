@@ -1,4 +1,4 @@
-/** ******************************************************************************
+/********************************************************************************
  *    Autor:Pérez Hernández Jazziel.                                            *
  *    Fecha creación: 15 de marzo del 2022.                                     *
  *    Fecha actualización: 23 de marzo del 2022.                                *
@@ -30,7 +30,7 @@ public class ListarUsuarioServlet extends HttpServlet {
         out.println("<script src='" + request.getContextPath() + "/resources/JavaScrip/scrip.js'></script>");
         out.println("</head>");
         out.println("<body>");
-        
+
         out.println("<section class='container'>");
         out.println("<div style='text-align:center;'>");
         out.println("<table  class=\\\"container\\\" border='2' align='center'>");
