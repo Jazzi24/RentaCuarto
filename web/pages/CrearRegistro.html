@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="..\resources\css\GuardarEditar.css">
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+     
+    
+    <body>
+        
+        
+        <link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'/>
+        <div class="menuicon">
+            <a href="/Renta_Cuartos1/pages">
+                <div class="fa fa-home"></div>
+                <div class="title">Home</div>
+            </a>
+        </div>
+        
+       
+        <section class="container">
+            <form action="../GuardarCrearUsuarioServlet" method="POST">
+                <fieldset class="p">
+                    <legend class="cen">Registro de Usuario</legend>
+                    
+                    <label for="lnombre">Nombre:</label><br>
+                    
+                    <input type="text" id="fname" name="nombre" value=""><br><br>
+                    
+                    <label for="lSexo">Sexo:</label><br>
+                    
+                    <input type="text" id="sexo" name="sexo" value=""><br><br>
+                    
+                    <label for="ledad">Edad:</label><br>
+                    
+                    <input type="text" id="fname" name="edad" value=""><br><br>
+                    
+                    <label for="lcodigo">Codigo:</label><br>
+                    
+                    <input type="text" id="lname" name="codigo" value=""><br><br>
+                    
+                    <label for="ledad">Nombre Usuario:</label><br>
+                    
+                    <input type="text" id="fname" name="nameUsuario" value=""><br><br>
+                    <label for="lcontraseña">Contraseña:</label><br>
+                    <input type="text" id="lname" name="contraseña" value=""><br><br>
+                    <input type="submit" value="Guardar">
+                </fieldset>
+            </form>
+        </section>
+    </body>
+
+</html>
+
+

@@ -1,0 +1,222 @@
+
+.body {
+  font-family: system-ui;
+/*  background: #fff url('https://picsum.photos/id/870/200/300?grayscale&blur=2') fixed;*/
+background: #fff url('https://picsum.photos/200/300/?blur') fixed;
+  color: black;
+  text-align: justify;
+}
+/* TITULO -------------------------------------------------------- */
+#formulario{
+  font-family: sans-serif;
+  background: #14376d;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  border-bottom: 5px solid #205ab4;
+  margin-bottom:5px; 
+}
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* FORMULARIO: fondo blanco y casillas --------------------------- */
+form{
+  background-color: white;
+  margin:10px;
+  margin:0 auto;
+  border-radius:19px;
+  width: 40%;
+  /* SECUENCIA: para centrar formulario */
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  /* TAMAÑO LETRA: nombre, apellido, e-mail, etc ----- */
+    label{
+      margin-left: 8px;
+      font-size: 12px;
+      padding: 5px;
+      display:block;
+      width: 100%;
+      font-family: sans-serif;
+    }
+  /* -------------------------------------------------- */
+  /* EDICION CADA INPUT: diseño ----------------------- */
+    input{
+      margin-bottom:10px; 
+      width: 95%;
+      padding: 2%;
+      margin-left: 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      font-style: italic; 
+    }
+    /* Cuando da click dentro de un input --------------- */
+      input:focus{
+        background-color: #F2F2F2;
+      }
+    /* -------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* C U E R P O  -------------------------------------------------- */ 
+body{
+
+background-image: linear-gradient(-90deg,#6ABBF7, #BD7CFA);
+}
+/* --------------------------------------------------------------- */
+/* FUNCION DEL BOTON REGISTRARSE --------- */
+#button {
+        width: 94%;
+        font-family: sans-serif;
+        font-size:15px;
+        font-weight: bolder;
+        background-color: #205ab4;
+        color: #fff;
+        cursor: pointer;
+        margin-bottom:15px;
+        margin-left:10px;
+        border: none;
+        padding: 3%;
+        border-radius: 20px 10px 20px 10px;
+    /* SOMBRA BOTON: darle sommbre al boton "resgistrarse"*/
+        -webkit-box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
+         box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);      
+}
+#button:hover{
+  background-color: #7FACDE;
+}
+body{
+background-image: linear-gradient(-90deg,#6ABBF7, #BD7CFA);
+}
+
+.heard{
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15;
+}
+
+.footor{
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	width: 80%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	background: #30A6E6;
+	color: #FFFFFF;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #000000;
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: #DF4B05;        
+}
+#submenu a {
+	background-color:#000000;
+}
+
+
+.menuicon {
+  text-align: rigth;
+  font-size: 0;
+}
+.menuicon a {
+  position: relative;
+  display: inline;
+  *display: inline;
+  zoom: 1;
+  width: 300px;  
+  height: 300px;
+  text-align: rigth;
+  color: #ffffff;
+  text-shadow: 1px 1px 0 black;
+  text-decoration: none;
+  background: #9933cc;
+  vertical-align: top;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  transition: .3s all;
+  
+}
+.menuicon a .fa {
+  position: relative;
+  top: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 2px solid white;
+  font-size: 40px;
+}
+.menuicon a .title {
+  font-size: 20px;
+  line-height: 60px;
+}
+.menuicon a:hover {
+  -webkit-transform: scale(0.80,0.80);
+  -moz-transform: scale(0.80,0.80);
+  transform: scale(0.80,0.80);
+}
+.menuicon a:nth-of-type(odd) {
+  background: #BF9830;
+}
+.menuicon a:first-child {
+  background: #0099cc;
+  width: 100px;
+}
+.menuicon a:first-child .fa {
+  border: 0;
+  font-size: 60px;
+}
+.menuicon a:first-child .title {
+  font-size: 30px;
+  line-height: 20px;
+  font-style: italic;
+}
+
+/* ---------------------------------------- */
