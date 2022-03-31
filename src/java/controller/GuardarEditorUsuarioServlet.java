@@ -1,5 +1,5 @@
 /** ******************************************************************************
- *    Autor:Pérez Hernández Jazziel.                                            *
+ *    Autor:Fernando López Salvador.                                            *
  *    Fecha creación: 17 de marzo del 2022.                                     *
  *    Fecha actualización: 20 de marzo del 2022.                                *
  *    Descripción: Implementacion del metodo doGet.                    *

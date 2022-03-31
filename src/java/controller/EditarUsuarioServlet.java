@@ -1,5 +1,5 @@
 /** ******************************************************************************
- *    Autor:Pérez Hernández Jazziel.                                            *
+ *    Autor:Fernando Lopez Salvador.                                            *
  *    Fecha creación: 17 de marzo del 2022.                                     *
  *    Fecha actualización: 17 de marzo del 2022.                                *
  *    Descripción: Creacion de EditarUsuarioServlet.                            *
