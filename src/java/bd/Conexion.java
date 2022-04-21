@@ -14,7 +14,7 @@ public class Conexion {
     private Connection connection;
     private String url = "jdbc:postgresql://localhost/rentacuarto";
     private String user = "postgres";
-    private String pwd = "perez24";
+    private String pwd = "fernando";
 
     public Conexion() {
     }
